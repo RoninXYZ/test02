@@ -1,0 +1,37 @@
+
+
+.home {
+  padding: 20px;
+}
+
+.home h2 {
+  text-align: center;
+}
+
+.gps-status {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+}
+
+.coordinates {
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  border-radius: 10px;
+}
+
+.coordinates button {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
