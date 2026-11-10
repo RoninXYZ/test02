@@ -1,37 +1,46 @@
 
 
 .home {
+  width: 100%;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .home h2 {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .gps-status {
   text-align: center;
-  color: green;
   font-weight: bold;
+  color: #16803c;
+  margin-bottom: 15px;
 }
 
 .map {
   width: 100%;
-  height: 500px;
-  border-radius: 12px;
+  height: 450px;
+  border-radius: 10px;
+  z-index: 1;
 }
 
 .coordinates {
   margin-top: 20px;
-  padding: 20px;
-  background: #eee;
+  padding: 15px;
+  background: #f2f2f2;
   border-radius: 10px;
 }
 
 .coordinates button {
   padding: 10px 20px;
-  background: green;
+  background: #16803c;
   color: white;
   border: none;
-  cursor: pointer;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.coordinates button:hover {
+  background: #105d2b;
 }
