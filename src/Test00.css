@@ -1,0 +1,41 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101820;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: orange;
+  font-size: 32px;
+}
+
+button {
+  padding: 14px 30px;
+  margin: 20px;
+  background: #00a86b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #008f5b;
+}
+
+p {
+  line-height: 1.6;
+}
